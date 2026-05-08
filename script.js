@@ -6,10 +6,10 @@
  * 2. 拿到後，將下方引號內的文字換成你的 API Key。
  */
 const CONFIG = {
-    // 👇👇👇 請在這裡貼上你的 API Key 👇👇👇
+    // 1. 確認這裡貼的是你剛剛複製的 AIza... 開頭的 Key
     GEMINI_API_KEY: "AIzaSyB0ZZsfM4IfFRhBcqwXjOGk0MmlDt_u17w", 
-    // 👆👆👆 👆👆👆 👆👆👆 👆👆👆 👆👆👆
-    
+
+    // 2. 注意：網址結尾要加上 :generateContent，且中間是 v1beta
     API_URL: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 };
 
